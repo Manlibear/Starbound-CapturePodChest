@@ -1,0 +1,9 @@
+[
+    {
+      "op": "add",
+      "path": "/defaultBlueprints/tier1/1942",
+      "value": {
+        "item": "capturepodchest"
+      }
+    }
+]

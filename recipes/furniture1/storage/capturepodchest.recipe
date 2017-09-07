@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 2 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "capturepodchest",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "storage", "all", "mod" ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "capturepodchest",
+  "colonyTags" : ["bonus","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A special chest for storing capture pods",
+  "shortdescription" : "Capturepod Chest",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A handy storage solution for captured monsters.",
+  "avianDescription" : "A handy storage solution for captured monsters.",
+  "floranDescription" : "A handy storage solution for captured monsters.",
+  "glitchDescription" :  "A handy storage solution for captured monsters.",
+  "humanDescription" :  "A handy storage solution for captured monsters.",
+  "hylotlDescription" :  "A handy storage solution for captured monsters.",
+  "novakidDescription" :  "A handy storage solution for captured monsters.",
+
+  "inventoryIcon" : "capturepodchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "capturepodchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkerslidingdoor_close.ogg"],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
